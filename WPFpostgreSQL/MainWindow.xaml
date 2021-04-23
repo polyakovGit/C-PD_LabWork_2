@@ -14,7 +14,7 @@
         </Grid.RowDefinitions>
 
         <Label FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"
-               Grid.Row="0" Content="JOIN Application using EntityFrameworkCore and postgreSQL"/>
+               Grid.Row="0" Content="Add Application using EntityFrameworkCore and postgreSQL"/>
 
         <DataGrid x:Name="UserDG" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True"
                   Grid.Row="1" ColumnWidth="*" Margin="5" IsSynchronizedWithCurrentItem="True" >
